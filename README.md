@@ -3,7 +3,7 @@ This is an English learning news website based on the front-end JavaScript frame
 
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).1
 
 ## Available Scripts
 
