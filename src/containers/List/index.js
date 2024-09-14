@@ -11,7 +11,7 @@ function PageList(){
     //         setState(res.data.data)
     // })
     useEffect(() => {
-        let url = 'http://www.dell-lee.com/react/api/list.json';
+        let url = 'https://www.dell-lee.com/react/api/list.json';
         let id = params.id
         if (id) {
 			url = url + '?id=' + id;
