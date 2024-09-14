@@ -12,7 +12,7 @@ function Login(){
     };
 
     const handleOk = () => {
-		const url = `http://www.dell-lee.com/react/api/login.json?user=${state.user}&password=${state.password}`;
+		const url = `https://www.dell-lee.com/react/api/login.json?user=${state.user}&password=${state.password}`;
         // const url = `http://www.dell-lee.com/react/api/login.json?user=admin&password=admin`;
 		axios.get(url,{
 			withCredentials: true
@@ -29,7 +29,7 @@ function Login(){
     };
     
     const logout=()=> {
-		axios.get('http://www.dell-lee.com/react/api/logout.json', {
+		axios.get('https://www.dell-lee.com/react/api/logout.json', {
 			withCredentials: true
 		})
 			.then(res => {

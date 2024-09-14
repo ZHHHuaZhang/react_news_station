@@ -28,7 +28,7 @@ class AppHeader extends Component {
     }
     
 	componentDidMount() {
-		axios.get('http://www.dell-lee.com/react/api/header.json')
+		axios.get('https://www.dell-lee.com/react/api/header.json')
 			.then((res) => {
                 this.setState({
                     list:res.data.data

@@ -7,7 +7,7 @@ function Detail(){
     const [state,setState] = useState({title:'title',content:'content'});
     let id = params.id
     useEffect(()=>{
-        axios.get('http://www.dell-lee.com/react/api/detail.json?id=' + id)
+        axios.get('https://www.dell-lee.com/react/api/detail.json?id=' + id)
         .then(res => {
             const data = res.data.data;
             setState(data)
