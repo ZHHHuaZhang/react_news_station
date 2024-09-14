@@ -1,3 +1,6 @@
+# Introduction
+This is an English learning news website based on the front-end JavaScript framework React developed by me in my spare time. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
